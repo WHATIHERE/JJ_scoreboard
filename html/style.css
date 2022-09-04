@@ -1,0 +1,187 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+* {
+  font-family: 'Sriracha', cursive;
+}
+
+#body {
+  display: none;
+  user-select: none;
+}
+
+:root {
+  --box-top-h: 70%;
+  --color-number-Id: white;
+  
+}
+
+.container {
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 500px;
+  background-image: url(https://cdn.discordapp.com/attachments/966674003127324703/969136116382978088/scoreboardCopy.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.box-top {
+  height: var(--box-top-h);
+}
+.label-numberId {
+  text-align: center;
+  margin-right: 100px;
+  color: white;
+  text-align: center;
+  margin-top: 225px;
+  font-size: 25px;
+}
+
+.box-bottom {
+  height: calc(100% - var(--box-top-h));
+}
+.box-name {
+  height: 30px;
+  position: relative;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: -165px;
+  font-size: 20px;
+  text-align: center;
+}
+.box-job {
+  height: 30px;
+  position: relative;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: 12.5px;
+  font-size: 20px;
+  text-align: center;
+}
+.box-phone {
+  height: 30px;
+  position: relative;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: 12.5px;
+  font-size: 20px;
+  text-align: center;
+} 
+
+.box-blue,
+.box-churn,
+.box-kanok,
+.box-indra {
+  position: relative;
+  font-size: 18px;
+  height: 30px;
+  text-align: center;
+}
+
+.box-kanok {
+  font-family: 'Chakra Petch', sans-serif;
+  margin-right: -310px;
+  margin-top: -30.5px;
+}
+
+.box-churn {
+  font-family: 'Chakra Petch', sans-serif;
+  margin-right: -76.5px;
+  margin-top: -30.5px;
+}
+
+.box-blue {
+  font-family: 'Chakra Petch', sans-serif;
+  margin-right: 37.5px;
+  margin-top: 11.5px;
+}
+
+.box-indra {
+  font-family: 'Chakra Petch', sans-serif;
+  margin-right: -190.5px;
+  margin-top: -30.5px;
+}
+.box-onlinePlayers {
+  height: 30px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 251, 251);
+  margin-right: -490px;
+  margin-top: -30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.box-playerId {
+  height: 30px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-right: -500px;
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+/*
+.label-onlinePlayers {
+  position: absolute;
+  font-size: 20px;
+  left: 75px;
+  bottom: -35px;
+  text-align: center;
+  color:white;
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 20px #46fc4600, 0 0 30px #46fc4600, 0 0 40px #46fc4600, 0 0 50px #46fc4600, 0 0 60px #46fc4600, 0 0 70px #46fc4600;
+  }
+}
+*/
+
+.fade-in-bottom {
+  -webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: fade-in-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

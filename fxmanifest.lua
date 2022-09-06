@@ -1,8 +1,10 @@
-version '1.0.0'
+version '1.0.2'
 author 'JJ Copy X'
-description 'scoreboardX'
+description 'JJ_SCOREBOARD'
 fx_version 'bodacious'
-games {'gta5'}
+games { 'gta5' }
+
+ui_page "html/ui.html"
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
@@ -13,8 +15,6 @@ client_scripts {
 	'client.lua'
 }
 
-ui_page "html/index.html"
-
 files {
 	"html/*"
-}client_script "@SCRIPTX-AC/core/client/stop.resource.lua"
+}

@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  color: white;
+  color: rgb(98, 0, 255);
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -24,11 +24,11 @@ body {
 
 .container {
   margin-top: 10vh;
-  margin-left: auto;
+  margin-left: 400px;
   margin-right: auto;
   width: 700px;
-  height: 500px;
-  background-image: url(https://cdn.discordapp.com/attachments/966674003127324703/969136116382978088/scoreboardCopy.png);
+  height: 300px;
+  /* background-color: rgb(11, 13, 20); */
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body {
 .label-numberId {
   text-align: center;
   margin-right: 100px;
-  color: white;
+  color: rgb(51, 255, 0);
   text-align: center;
   margin-top: 225px;
   font-size: 25px;
@@ -80,35 +80,35 @@ body {
   text-align: center;
 } 
 
-.box-blue,
-.box-churn,
-.box-kanok,
-.box-indra {
+.box-police,
+.box-ambulance,
+.box-council,
+.box-mechanic {
   position: relative;
   font-size: 18px;
   height: 30px;
   text-align: center;
 }
 
-.box-kanok {
+.box-council {
   font-family: 'Chakra Petch', sans-serif;
   margin-right: -310px;
   margin-top: -30.5px;
 }
 
-.box-churn {
+.box-ambulance {
   font-family: 'Chakra Petch', sans-serif;
   margin-right: -76.5px;
   margin-top: -30.5px;
 }
 
-.box-blue {
+.box-police {
   font-family: 'Chakra Petch', sans-serif;
   margin-right: 37.5px;
   margin-top: 11.5px;
 }
 
-.box-indra {
+.box-mechanic {
   font-family: 'Chakra Petch', sans-serif;
   margin-right: -190.5px;
   margin-top: -30.5px;
@@ -118,10 +118,10 @@ body {
   position: relative;
   text-align: center;
   font-weight: bold;
-  color: rgb(255, 251, 251);
+  color: rgb(51, 255, 0);
   margin-right: -490px;
   margin-top: -30px;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -130,7 +130,7 @@ body {
   position: relative;
   text-align: center;
   font-weight: bold;
-  color: white;
+  color: rgb(51, 255, 0)white;
   margin-right: -500px;
   margin-top: 10px;
   font-size: 15px;

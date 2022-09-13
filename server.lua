@@ -17,6 +17,8 @@ ESX.RegisterServerCallback('xscoreboard:server:getdata', function(source, cb)
 	local xPlayer        = ESX.GetPlayerFromId(_source)
     MySQL.Async.fetchAll('SELECT * FROM users WHERE identifier = @iden LIMIT 0,1', {
         ['@iden'] = iden
+    -- MySQL.query('SELECT * FROM users WHERE identifier = @iden LIMIT 0,1', {
+        ['@iden'] = iden
     }, function(result)
         if not (result[1] == nil) then
             local data = {}   
